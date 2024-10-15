@@ -1,0 +1,7 @@
+# para desplegar, ejecutar por terminal:
+docker compose up -d
+
+sudo docker exec -it mysqlService mysql -uuseruser -p
+# Ingresa la contraseña: admin
+USE nodejs;
+SHOW TABLES;

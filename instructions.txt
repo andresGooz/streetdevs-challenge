@@ -1,0 +1,42 @@
+
+ Desafío 1– Front End:
+ Desarrolla una aplicación web utilizando React JS y TypeScript. La aplicación
+ debe permitir a los usuarios realizar operaciones CRUD (Crear, Leer,
+ Actualizar, Eliminar) sobre un conjunto de datos. Utiliza Redux o React
+ Context (useContext) para gestionar el estado de la aplicación y asegúrate de
+ que la interfaz sea responsiva y amigable.
+
+ Desafío 2– Back End:
+ Crea un servidor local en Node JS utilizando un framework de API REST de
+ tu elección (puede ser Serverless Framework, Express JS, Nest JS, etc.). [OK]
+ Conecta el servidor a una base de datos MySQL y establece las operaciones [OK]
+ CRUDcorrespondientes para interactuar con la aplicación Front End.
+
+ Desafío 3– Integración de Tecnologías Deseables:
+ Integra al menos dos de las siguientes tecnologías:
+ AWS(puede ser cualquier servicio como Lambda, S3, RDS, etc.)
+ GraphQL
+ ORM(como Sequelize u otro) [OK]
+ Material UI, Styled Components, Ant Design o Bootstrap [OK]
+ WebSocket / Socket IO
+ React Native (opcional para un enfoque móvil)
+
+Desafío 4– Pruebas y Optimización:
+ Implementa pruebas unitarias para al menos una parte significativa de tu
+ código. Utiliza las herramientas mencionadas en la oferta (Playwright, Jest.js,
+ Cypress.js, Unit.js, Mocha.js). Realiza optimizaciones que consideres
+ pertinentes en tu aplicación para mejorar su rendimiento.
+ Entrega:
+ Sube tu proyecto a un repositorio en GitHub, GitLab o BitBucket.
+ Incluye un README con instrucciones claras para ejecutar la aplicación,
+ así como detalles sobre la configuración del entorno y las pruebas.
+ Opcional: Sube un video explicando tu solución.
+ Evaluación:
+ Tu solución será evaluada en función de:
+ La calidad y claridad del código.
+ El cumplimiento de los requisitos y especificaciones.
+ La eficiencia en el uso de las tecnologías.
+ La implementación efectiva de las tecnologías deseadas.
+ La claridad y exhaustividad de la documentación proporcionada.
+ ¡Esperamos con entusiasmo tu solución! Si tienes alguna pregunta o
+ necesitas más información, no dudes en contactarnos. ¡Buena suerte!
