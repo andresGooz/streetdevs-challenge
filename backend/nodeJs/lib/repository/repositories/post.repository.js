@@ -41,4 +41,4 @@ class PostRepository {
   }
 }
 
-module.exports = new PostRepository();
+module.exports = PostRepository;

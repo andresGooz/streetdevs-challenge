@@ -1,9 +1,10 @@
-const postUseCase = require('../use-case/postUseCase');
-const ServicePostInterface = require('./interfaces/servicePost.interface');
-const checkValidityPluggin = require('../../helpers/checkValidityPluggin');
+const PostRepository = require('../repository/repositories/post.repository');
+const PostUseCase = require('../use-case/postUseCase');
 
 
-checkValidityPluggin(postUseCase, ServicePostInterface);
+const postRepository = new PostRepository();
+const postUseCase = new PostUseCase(postRepository);
+
 class PostController {
     async getAll(req, res) {
         const posts = await postUseCase.getAll();
