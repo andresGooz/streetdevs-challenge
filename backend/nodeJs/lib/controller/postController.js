@@ -1,6 +1,9 @@
 const postService = require('../service/postService');
+const ServicePostInterface = require('./interfaces/servicePost.interface');
+const checkValidityPluggin = require('../../helpers/checkValidityPluggin');
 
 
+checkValidityPluggin(postService, ServicePostInterface);
 class PostController {
     async getAll(req, res) {
         const posts = await postService.getAll();
