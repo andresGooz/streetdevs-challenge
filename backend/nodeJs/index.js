@@ -9,14 +9,14 @@ dotenv.config({ path: `${__dirname}/.env` });
 
 const PostRepository = require('./lib/repository/repositories/post.repository');
 const PostController = require('./lib/controller/postController');
-const RepositoryPostInterface = require('./interfaces/index-repository-post.interface');
+const ControllerPostInterface = require('./interfaces/controller-post.interface');
 const checkValidityPluggin = require('./helpers/checkValidityPluggin');
 
 
 const postRepository = new PostRepository();
 const postController = new PostController(postRepository);
 
-checkValidityPluggin(postController, RepositoryPostInterface);
+checkValidityPluggin(postController, ControllerPostInterface);
 
 app.get('/posts', (req, res) => postController.getAll(req, res));//OK
 app.get('/posts/id/:id', (req, res) => postController.getById(req, res));//OK

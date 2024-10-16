@@ -1,4 +1,4 @@
-const RepositoryPostInterface = {
+const ControllerPostInterface = {
     create: function () {},
     delete: function () {}, 
     getAll: function () {},
@@ -7,4 +7,4 @@ const RepositoryPostInterface = {
     update: function () {}, 
 };
 
-module.exports = RepositoryPostInterface;
+module.exports = ControllerPostInterface;
