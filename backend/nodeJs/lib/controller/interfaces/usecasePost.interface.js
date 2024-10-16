@@ -1,4 +1,4 @@
-const ServicePostInterface = {
+const UsecasePostInterface = {
     getAll: function () {},
     getById: function () {}, 
     getByName: function () {},
@@ -7,4 +7,4 @@ const ServicePostInterface = {
     delete: function () {}, 
 };
 
-module.exports = ServicePostInterface;
+module.exports = UsecasePostInterface;
