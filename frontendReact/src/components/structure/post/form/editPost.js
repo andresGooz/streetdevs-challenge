@@ -50,7 +50,7 @@ function EditPostForm({ post }) {
         ></md-outlined-text-field>
       </div>
       <md-filled-button type="submit">
-        <md-icon className="material-icons">save</md-icon>
+        <md-icon class="material-icons">save</md-icon>
         Save Post
       </md-filled-button>
     </form>
