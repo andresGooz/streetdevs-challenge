@@ -1,18 +1,21 @@
-const PostRepository = require('../repository/repositories/post.repository');
 const PostUseCase = require('../use-case/postUseCase');
+const UsecasePostInterface = require('./interfaces/usecasePost.interface');
+const checkValidityPluggin = require('../../helpers/checkValidityPluggin');
 
-
-const postRepository = new PostRepository();
-const postUseCase = new PostUseCase(postRepository);
 
 class PostController {
+    constructor(postRepository) {
+        this.postRepository = postRepository;
+        this.postUseCase = new PostUseCase(postRepository);
+        checkValidityPluggin(this.postUseCase, UsecasePostInterface);
+    }
     async getAll(req, res) {
-        const posts = await postUseCase.getAll();
+        const posts = await this.postUseCase.getAll();
         res.json(posts);
     }
 
     async getById(req, res) {
-        const post = await postUseCase.getById(req.params.id);
+        const post = await this.postUseCase.getById(req.params.id);
         if (post) {
             res.json(post);
         } else {
@@ -21,7 +24,7 @@ class PostController {
     }
 
     async getByName(req, res) {
-        const posts = await postUseCase.getByName(req.params.name);
+        const posts = await this.postUseCase.getByName(req.params.name);
         if (posts) {
             res.json(posts);
         }
@@ -31,12 +34,12 @@ class PostController {
     }
 
     async create(req, res) {
-        const post = await postUseCase.create(req.body);
+        const post = await this.postUseCase.create(req.body);
         res.status(201).json(post);
     }
 
     async update(req, res) {
-        const post = await postUseCase.update(req.params.id, req.body);
+        const post = await this.postUseCase.update(req.params.id, req.body);
         if (post) {
             res.json(post);
         } else {
@@ -45,9 +48,9 @@ class PostController {
     }
 
     async delete(req, res) {
-        await postUseCase.delete(req.params.id);
+        await this.postUseCase.delete(req.params.id);
         res.status(204).send();
     }
 }
 
-module.exports = new PostController();
+module.exports = PostController;
