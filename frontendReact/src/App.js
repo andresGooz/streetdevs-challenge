@@ -4,6 +4,7 @@ import Layout from "./components/structure/layout/layout";
 import CreatePost from "./components/structure/views/createPost";
 import ListPost from "./components/structure/views/listPost";
 import GetDetailsPost from "./components/structure/views/getDetailsPost";
+import EditPost from './components/structure/views/editPost';
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
           <Route index element={<CreatePost />} />
           <Route path="/posts/create" element={<CreatePost />} />
           <Route path="/post/:postId" element={<GetDetailsPost />} />
+          <Route path="/post/edit/:postId" element={<EditPost />} />
           <Route path="/posts" element={<ListPost />} />
           <Route path="/NotFound" element={<NotFound />} />
           <Route path="*" element={<NotFound />} />
