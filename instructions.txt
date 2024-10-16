@@ -6,6 +6,7 @@
  Context (useContext) para gestionar el estado de la aplicación y asegúrate de
  que la interfaz sea responsiva y amigable.
 
+
  Desafío 2– Back End:
  Crea un servidor local en Node JS utilizando un framework de API REST de
  tu elección (puede ser Serverless Framework, Express JS, Nest JS, etc.). [OK]
