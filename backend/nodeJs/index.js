@@ -1,8 +1,3 @@
-const PostRepository = require('./lib/repository/repositories/post.repository');
-const PostController = require('./lib/controller/postController');
-const RepositoryPostInterface = require('./interfaces/index-repository-post.interface');
-const checkValidityPluggin = require('./helpers/checkValidityPluggin');
-
 const express = require('express')
 const app = express();
 var cors = require('cors')
@@ -11,6 +6,12 @@ const port = 3000;
 app.use(express.json());
 const dotenv = require('dotenv');
 dotenv.config({ path: `${__dirname}/.env` });
+
+const PostRepository = require('./lib/repository/repositories/post.repository');
+const PostController = require('./lib/controller/postController');
+const RepositoryPostInterface = require('./interfaces/index-repository-post.interface');
+const checkValidityPluggin = require('./helpers/checkValidityPluggin');
+
 
 const postRepository = new PostRepository();
 const postController = new PostController(postRepository);
