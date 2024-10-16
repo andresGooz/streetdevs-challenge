@@ -1,17 +1,17 @@
-const postService = require('../service/postService');
+const postUseCase = require('../use-case/postUseCase');
 const ServicePostInterface = require('./interfaces/servicePost.interface');
 const checkValidityPluggin = require('../../helpers/checkValidityPluggin');
 
 
-checkValidityPluggin(postService, ServicePostInterface);
+checkValidityPluggin(postUseCase, ServicePostInterface);
 class PostController {
     async getAll(req, res) {
-        const posts = await postService.getAll();
+        const posts = await postUseCase.getAll();
         res.json(posts);
     }
 
     async getById(req, res) {
-        const post = await postService.getById(req.params.id);
+        const post = await postUseCase.getById(req.params.id);
         if (post) {
             res.json(post);
         } else {
@@ -20,7 +20,7 @@ class PostController {
     }
 
     async getByName(req, res) {
-        const posts = await postService.getByName(req.params.name);
+        const posts = await postUseCase.getByName(req.params.name);
         if (posts) {
             res.json(posts);
         }
@@ -30,12 +30,12 @@ class PostController {
     }
 
     async create(req, res) {
-        const post = await postService.create(req.body);
+        const post = await postUseCase.create(req.body);
         res.status(201).json(post);
     }
 
     async update(req, res) {
-        const post = await postService.update(req.params.id, req.body);
+        const post = await postUseCase.update(req.params.id, req.body);
         if (post) {
             res.json(post);
         } else {
@@ -44,7 +44,7 @@ class PostController {
     }
 
     async delete(req, res) {
-        await postService.delete(req.params.id);
+        await postUseCase.delete(req.params.id);
         res.status(204).send();
     }
 }

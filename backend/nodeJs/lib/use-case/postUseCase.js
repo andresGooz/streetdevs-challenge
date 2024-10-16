@@ -4,7 +4,7 @@ const checkValidityPluggin = require('../../helpers/checkValidityPluggin');
 
 
 checkValidityPluggin(postRepository, RepositoryPostInterface);
-class PostService {
+class PostUseCase {
     getAll() {
         return postRepository.getAll();
     }
@@ -30,4 +30,4 @@ class PostService {
     }
 }
 
-module.exports = new PostService();
+module.exports = new PostUseCase();
