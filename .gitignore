@@ -34,9 +34,9 @@ yarn-error.log*
 ./package-lock.json
 package-lock.json
 
-TCIT-challenge/backend/database/postgres-data
-TCIT-challenge/backend/nodeJs/node_modules
-TCIT-challenge/frontendReact/public/env
+streetdevs-challenge/backend/database/postgres-data
+streetdevs-challenge/backend/nodeJs/node_modules
+streetdevs-challenge/frontendReact/public/env
 /backend/database/postgres-data
 /backend/database/mysql-data
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
