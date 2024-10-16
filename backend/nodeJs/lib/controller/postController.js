@@ -40,7 +40,6 @@ class PostController {
         }
     }
 
-
     async delete(req, res) {
         await postService.delete(req.params.id);
         res.status(204).send();
