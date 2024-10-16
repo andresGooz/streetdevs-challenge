@@ -1,6 +1,9 @@
 const postRepository = require('../repository/repositories/post.repository');
+const RepositoryPostInterface = require('./interfaces/repositoryPost.interface');
+const checkValidityPluggin = require('../../helpers/checkValidityPluggin');
 
 
+checkValidityPluggin(postRepository, RepositoryPostInterface);
 class PostService {
     getAll() {
         return postRepository.getAll();
