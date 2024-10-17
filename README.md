@@ -13,6 +13,7 @@
     - Instalar las dependencias y levantar el servidor:
       ```bash
       npm install
+      npm test
       node index.js
       ```
     El backend se desplegará en el puerto 3000.
