@@ -1,6 +1,6 @@
 
  Desafío 1– Front End: [OK]
- Desarrolla una aplicación web utilizando React JS y TypeScript. 
+ Desarrolla una aplicación web utilizando React JS y TypeScript. [OK => tengo combinado ts con js]
  La aplicación debe permitir a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre un conjunto de datos. [OK]
  Utiliza Redux o React Context (useContext) para gestionar el estado de la aplicación y asegúrate de que la interfaz sea responsiva y amigable. [OK]
 
