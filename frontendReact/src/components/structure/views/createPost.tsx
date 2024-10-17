@@ -1,5 +1,5 @@
 import React from 'react';
-import CreatePostForm from '../../structure/post/form/createPost';
+import CreatePostForm from '../post/form/createPost';
 import '@material/web/textfield/outlined-text-field';
 import '@material/web/button/filled-button';
 import '@material/web/icon/icon';
