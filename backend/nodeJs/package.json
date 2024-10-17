@@ -1,5 +1,5 @@
 {
-  "name": "automatedm",
+  "name": "streetdevs-challenge",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "author": "gabrielguzman",
   "license": "ISC",
-  "description": "d",
+  "description": "",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@google-cloud/apikeys": "^1.3.0",
@@ -32,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andresGooz/automatedM.git"
+    "url": "git+https://github.com/andresGooz/streetdevs-challenge.git"
   },
   "bugs": {
-    "url": "https://github.com/andresGooz/automatedM/issues"
+    "url": "https://github.com/andresGooz/streetdevs-challenge/issues"
   },
-  "homepage": "https://github.com/andresGooz/automatedM#readme",
+  "homepage": "https://github.com/andresGooz/streetdevs-challenge#readme",
   "devDependencies": {
     "jest": "^29.7.0"
   }
