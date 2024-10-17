@@ -26,6 +26,6 @@
     - Instalar las dependencias y levantar el servidor de desarrollo:
       ```bash
       npm install
-      npm start
+      npm start // hacer click en yes para cambiar el puerto a 3001
       ```
     El frontend se desplegará en el puerto 3001.
