@@ -22,7 +22,7 @@ app.get('/posts', (req, res) => postController.getAll(req, res));//OK
 app.get('/posts/id/:id', (req, res) => postController.getById(req, res));//OK
 app.get('/posts/name/:name', (req, res) => postController.getByName(req, res));//OK
 app.post('/posts', (req, res) => postController.create(req, res));//OK
-app.put('/posts/:id', (req, res) => postController.update(req, res));
+app.put('/posts/:id', (req, res) => postController.update(req, res));//OK
 app.delete('/posts/:id', (req, res) => postController.delete(req, res));//OK
 
 app.listen(port, () => {
