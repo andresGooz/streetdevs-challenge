@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "author": "gabrielguzman",
   "license": "ISC",
@@ -37,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/andresGooz/automatedM/issues"
   },
-  "homepage": "https://github.com/andresGooz/automatedM#readme"
+  "homepage": "https://github.com/andresGooz/automatedM#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

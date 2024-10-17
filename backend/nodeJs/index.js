@@ -9,7 +9,7 @@ dotenv.config({ path: `${__dirname}/.env` });
 
 const PostRepository = require('./lib/repository/repositories/post.repository');
 const PostController = require('./lib/controller/postController');
-const ControllerPostInterface = require('./interfaces/controller-post.interface');
+const ControllerPostInterface = require('./interfaces/controllerPost.interface');
 const checkValidityPluggin = require('./helpers/checkValidityPluggin');
 
 

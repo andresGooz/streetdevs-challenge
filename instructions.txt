@@ -20,7 +20,7 @@
  React Native (opcional para un enfoque móvil) [No]
 
 Desafío 4– Pruebas y Optimización: [Pending]
- Implementa pruebas unitarias para al menos una parte significativa de tu código. Utiliza las herramientas mencionadas en la oferta (Playwright, Jest.js, Cypress.js, Unit.js, Mocha.js). 
+ Implementa pruebas unitarias para al menos una parte significativa de tu código. Utiliza las herramientas mencionadas en la oferta (Playwright, Jest.js, Cypress.js, Unit.js, Mocha.js). [OK => Jest]
  Realiza optimizaciones que consideres pertinentes en tu aplicación para mejorar su rendimiento.
 
  Entrega: [Ok]
@@ -29,6 +29,7 @@ Desafío 4– Pruebas y Optimización: [Pending]
  así como detalles sobre la configuración del entorno y las pruebas. [Pending = ]
 
  Opcional: Sube un video explicando tu solución.
+
  Evaluación:
  Tu solución será evaluada en función de:
  La calidad y claridad del código. [OK]
