@@ -19,21 +19,21 @@
  WebSocket / Socket IO [No]
  React Native (opcional para un enfoque móvil) [No]
 
-Desafío 4– Pruebas y Optimización: [Pending]
+Desafío 4– Pruebas y Optimización: [Ok]
  Implementa pruebas unitarias para al menos una parte significativa de tu código. Utiliza las herramientas mencionadas en la oferta (Playwright, Jest.js, Cypress.js, Unit.js, Mocha.js). [OK => Jest]
- Realiza optimizaciones que consideres pertinentes en tu aplicación para mejorar su rendimiento.
+ Realiza optimizaciones que consideres pertinentes en tu aplicación para mejorar su rendimiento.[OK = clean code architecture]
 
  Entrega: [Ok]
  Sube tu proyecto a un repositorio en GitHub, GitLab o BitBucket. [OK = github]
  Incluye un README con instrucciones claras para ejecutar la aplicación, [OK = readme]
- así como detalles sobre la configuración del entorno y las pruebas. [Pending = ]
+ así como detalles sobre la configuración del entorno y las pruebas. [Ok ]
 
  Opcional: Sube un video explicando tu solución.
 
  Evaluación:
  Tu solución será evaluada en función de:
- La calidad y claridad del código. [OK]
- El cumplimiento de los requisitos y especificaciones. [OK]
+ La calidad y claridad del código.
+ El cumplimiento de los requisitos y especificaciones.
  La eficiencia en el uso de las tecnologías.
  La implementación efectiva de las tecnologías deseadas.
  La claridad y exhaustividad de la documentación proporcionada.
