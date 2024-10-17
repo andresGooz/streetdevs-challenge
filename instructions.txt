@@ -1,34 +1,29 @@
 
- Desafío 1– Front End:
+ Desafío 1– Front End: [OK]
  Desarrolla una aplicación web utilizando React JS y TypeScript. 
- La aplicación debe permitir a los usuarios realizar operaciones CRUD (Crear, Leer,
- Actualizar, Eliminar) sobre un conjunto de datos. Utiliza Redux o React
- Context (useContext) para gestionar el estado de la aplicación y asegúrate de
- que la interfaz sea responsiva y amigable.
+ La aplicación debe permitir a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre un conjunto de datos. [OK]
+ Utiliza Redux o React Context (useContext) para gestionar el estado de la aplicación y asegúrate de que la interfaz sea responsiva y amigable. [OK]
 
 
  Desafío 2– Back End: [OK]
- Crea un servidor local en Node JS utilizando un framework de API REST de
- tu elección (puede ser Serverless Framework, Express JS, Nest JS, etc.). [OK = Express]
+ Crea un servidor local en Node JS utilizando un framework de API REST de tu elección (puede ser Serverless Framework, Express JS, Nest JS, etc.). [OK = Express]
  Conecta el servidor a una base de datos MySQL y establece las operaciones [OK = Mysql]
- CRUDcorrespondientes para interactuar con la aplicación Front End.
+ CRUDcorrespondientes para interactuar con la aplicación Front End. [OK]
 
  Desafío 3– Integración de Tecnologías Deseables: [OK]
  Integra al menos dos de las siguientes tecnologías:
- AWS(puede ser cualquier servicio como Lambda, S3, RDS, etc.)
- GraphQL
+ AWS(puede ser cualquier servicio como Lambda, S3, RDS, etc.) [No]
+ GraphQL [No]
  ORM(como Sequelize u otro) [OK = Sequelize]
  Material UI, Styled Components, Ant Design o Bootstrap [OK = Material design]
- WebSocket / Socket IO
- React Native (opcional para un enfoque móvil)
+ WebSocket / Socket IO [No]
+ React Native (opcional para un enfoque móvil) [No]
 
 Desafío 4– Pruebas y Optimización: [Pending]
- Implementa pruebas unitarias para al menos una parte significativa de tu
- código. Utiliza las herramientas mencionadas en la oferta (Playwright, Jest.js,
- Cypress.js, Unit.js, Mocha.js). Realiza optimizaciones que consideres
- pertinentes en tu aplicación para mejorar su rendimiento.
+ Implementa pruebas unitarias para al menos una parte significativa de tu código. Utiliza las herramientas mencionadas en la oferta (Playwright, Jest.js, Cypress.js, Unit.js, Mocha.js). 
+ Realiza optimizaciones que consideres pertinentes en tu aplicación para mejorar su rendimiento.
 
- Entrega:
+ Entrega: [Ok]
  Sube tu proyecto a un repositorio en GitHub, GitLab o BitBucket. [OK = github]
  Incluye un README con instrucciones claras para ejecutar la aplicación, [OK = readme]
  así como detalles sobre la configuración del entorno y las pruebas. [Pending = ]
