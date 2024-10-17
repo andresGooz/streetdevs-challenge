@@ -1,5 +1,7 @@
-# run project
-npm run dev
+# run frontend project
+Copiar el archivo `.env.example` y renombrarlo a `.env`:
+npm install
+npm start
 
 
 
