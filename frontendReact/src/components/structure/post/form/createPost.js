@@ -28,23 +28,24 @@ function CreatePostForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <md-outlined-text-field
+        <input
           id="name"
-          label="Nombre"
+          type="text"
+          placeholder="Nombre"
           value={name}
           onInput={(e) => setName(e.target.value)}
           required
-        ></md-outlined-text-field>
+        />
       </div>
       <div>
-        <md-outlined-text-field
+        <input
           id="description"
-          label="Descripción"
+          type="text"
+          placeholder="Descripción"
           value={description}
           onInput={(e) => setDescription(e.target.value)}
-          textarea
           required
-        ></md-outlined-text-field>
+        />
       </div>
       <md-filled-button type="submit">
         <md-icon class="material-icons">create</md-icon>
