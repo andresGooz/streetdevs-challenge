@@ -27,16 +27,14 @@ function CreatePostForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div>
-        <input
+      <md-outlined-text-field
           id="name"
           type="text"
           placeholder="Nombre"
           value={name}
           onInput={(e) => setName(e.target.value)}
           required
-        />
-      </div>
+        ></md-outlined-text-field>
       <div>
         <input
           id="description"

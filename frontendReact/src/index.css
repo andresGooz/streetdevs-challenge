@@ -1,3 +1,21 @@
+:root {
+  /*Button*/
+  --md-elevated-button-container-shape: 0px;
+  --md-elevated-button-label-text-font: system-ui;
+  --md-sys-color-surface-container-low: #FAFDFC;
+  --md-sys-color-primary: #191C1C;
+
+  /*Form Input*/
+  --md-outlined-text-field-container-shape: 0px;
+  --md-sys-typescale-body-large: 400 1rem system-ui;
+  --md-outlined-text-field-label-text-color: orange;
+  --md-outlined-text-field-input-text-color: orange;
+  --md-outlined-text-field-focus-label-text-color: orange; /* Para la etiqueta cuando está en focus */
+  --md-outlined-text-field-focus-input-text-color: orange; 
+  --md-outlined-text-field-hover-label-text-color: orange; /* Para la etiqueta cuando está en focus */
+  --md-outlined-text-field-hover-input-text-color: orange; 
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,6 +37,23 @@ code {
   }
   a {
     color: skyblue;
+  }
+  :root {
+    --md-elevated-button-container-shape: 0px;
+    --md-elevated-button-label-text-font: system-ui;
+    --md-sys-color-surface-container-low: #FAFDFC;
+    --md-sys-color-primary: skyblue;
+
+
+    /*Form Input*/
+    --md-outlined-text-field-container-shape: 0px;
+    --md-sys-typescale-body-large: 400 1rem system-ui;
+    --md-outlined-text-field-label-text-color: red;
+    --md-outlined-text-field-input-text-color: red;
+    --md-outlined-text-field-focus-label-text-color: red; /* Para la etiqueta cuando está en focus */
+    --md-outlined-text-field-focus-input-text-color: red; 
+    --md-outlined-text-field-hover-label-text-color: red; /* Para la etiqueta cuando está en focus */
+    --md-outlined-text-field-hover-input-text-color: red; 
   }
 
 }
