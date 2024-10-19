@@ -9,24 +9,24 @@ const Layout = () => {
   return (
     <>
       <nav>
-        <ul>
-        <li>
+        <div>
+          <div>
             <Link to="/posts/create">
               <md-filled-button>
                 <md-icon class="material-icons">create</md-icon>
                 Create Post
               </md-filled-button>
             </Link>
-          </li>
-          <li>
+          </div>
+          <div>
             <Link to="/posts">
               <md-filled-button>
                 <md-icon class="material-icons">article</md-icon>
                 Posts
               </md-filled-button>
             </Link>
-          </li>
-        </ul>
+          </div>
+        </div>
       </nav>
 
       <Outlet />

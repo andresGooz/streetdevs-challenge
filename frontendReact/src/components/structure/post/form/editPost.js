@@ -31,14 +31,13 @@ function EditPostForm({ post }) {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <input
+        <md-outlined-text-field
           id="name"
-          type="text"
-          placeholder="Nombre"
+          label="Nombre"
           value={name}
           onInput={(e) => setName(e.target.value)}
           required
-        />
+        ></md-outlined-text-field>
       </div>
       <div>
         <input
